@@ -1,0 +1,18 @@
+{
+  "id": "aiChat",
+  "name": "AI Chat",
+  "description": "Chat with any AI provider: free Pollinations, OpenAI, Anthropic, Gemini, Ollama, or any OpenAI-compatible API",
+  "version": "1.3.0",
+  "author": "you",
+  "type": "daemon",
+  "capabilities": [
+    "slideout",
+    "ai"
+  ],
+  "component": "./AIChatDaemon.qml",
+  "icon": "auto_awesome",
+  "permissions": [
+    "settings_read",
+    "settings_write"
+  ]
+}
